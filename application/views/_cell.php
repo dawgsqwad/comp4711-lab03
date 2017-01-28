@@ -6,5 +6,5 @@
 */
 ?>
 <a href="./data/{filename}.jpg" data-lightbox="gallery" data-title="{title} ... Posted {uploaded} by {uploader}, in {category}">
-	<img src="./data/thumb/Katmai_Crater_1980.jpg"/>
+	<img src="./data/thumb/{filename}"/>
 </a>

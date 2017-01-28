@@ -19,7 +19,7 @@ class Welcome extends Application
 	 */
 	public function index()
 	{
-		$pix = this->images->newest();
+		$pix = $this->images->newest();
 
 		foreach ($pix as $picture) 
 		{

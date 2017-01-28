@@ -35,4 +35,7 @@ Release Date: January 27, 2017
 **Updates:**
 - Simplified the views to make use of the master view template
 
-
+**Author:** EY[Mate]  
+**Date:** January 27, 2017  
+**Updates:** 
+- fixed issues with php syntax that was preventing load 
