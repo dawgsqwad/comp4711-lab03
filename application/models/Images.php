@@ -10,7 +10,7 @@ class Images extends CI_Model
 	function all()
 	{
 		$this->db->order_by("id","desc");
-		$query = this->db->get('images');
+		$query = $this->db->get('images');
 		return $query->result_array();
 	}
 
