@@ -19,7 +19,7 @@ class Gallery extends Application
 	 */
 	public function index()
 	{
-		$pix = this->images->all();
+		$pix = $this->images->all();
 
 		foreach ($pix as $picture) 
 		{
